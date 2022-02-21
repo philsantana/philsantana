@@ -38,12 +38,10 @@
                 </div>
                 <div id="lg">
                     <div id="js">
-                        <!--<img width="30" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />-->
                         <i id="icon" class="devicon-javascript-plain"></i>
                         <p class="lg">Java Script</p>
                     </div>
-                    <div id="cpp">    
-                        <!--<img width="30" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />-->
+                    <div id="cpp">
                         <i id="icon" class="devicon-cplusplus-plain"></i>
                         <p class="lg">C++</p>
                     </div>
