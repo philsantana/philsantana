@@ -1,22 +1,55 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <style>
-            .teste {
-                background-color: red;
+            #fundo {
+                background-color: #282a36;
+                width: 180;
+                height: auto;
+                margin: 0.5px;
+                padding: 20px;
             }
-            p {
+            #titulo {
+                font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                color: #ff6396;
+            }
+            #js {
+                padding: 5px;
+                height: 16px;
+            }
+            #cpp {
+                padding: 5px;
+                height: 16px;
+            }
+            .lg {
                 position: relative;
-                left: 60px;
+                top: -29px;
+                font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+                left: 25px;
+                color: white;
+            }
+            #icon {
+                color: #79dafa;
             }
         </style>
     </head>
     <body>
-        <div class="teste">
-            <h1> Linguagens Que Uso</h1>
-            <img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            <p>Java Script</p>
-            <img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-            <p>C++</p>
+        <div id="fundo">
+            <div id="titulo">
+                Linguagens Que Uso
+            </div><br>
+            <div id="lg">
+                <div id="js">
+                    <!--<img width="30" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />-->
+                    <i id="icon" class="devicon-javascript-plain"></i>
+                    <p class="lg">Java Script</p>
+                </div>
+                <div id="cpp">    
+                    <!--<img width="30" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />-->
+                    <i id="icon" class="devicon-cplusplus-plain"></i>
+                    <p class="lg">C++</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
